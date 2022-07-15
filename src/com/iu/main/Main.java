@@ -17,7 +17,7 @@ public class Main
 		phone.info();
 		
 		Client client = new Client();
-		client.buy(computer);
+		client.buy(phone);
 	}
 
 }

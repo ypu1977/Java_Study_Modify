@@ -13,6 +13,12 @@ public class Client
 		this.setPoint(10);
 	}
 	
+	public void buy(Product product)
+	{
+		this.money = this.money - product.getPrice();
+		this.point = this.money - product.getPoint();
+	}
+	
 	public void buy(int price, int point)
 	{
 		this.money = this.money - price;
