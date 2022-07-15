@@ -2,8 +2,9 @@ package com.iu.terran;
 
 import com.iu.unit.Unit;
 
-public abstract class Scv extends Unit
+public class Scv extends Unit
 {
+	
 	public void attack()
 	{
 		System.out.println("공격,.,");
