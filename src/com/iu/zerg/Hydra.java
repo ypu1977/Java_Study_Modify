@@ -1,18 +1,28 @@
 package com.iu.zerg;
 
-import com.iu.unit.Unit;
+import com.iu.unit.AirUnit;
+import com.iu.unit.Attacker;
 
-public class Hydra extends Unit
+public class Hydra extends Unit implements Attacker
 {
 	//hp, color, name
 	//움직이고, 공격
-	public void move()
+	
+	@Override
+	public void attack() 
 	{
-		System.out.println("이동 !!");
+		// TODO Auto-generated method stub		
 	}
 	
-	public void attack()
+	private void atta() 
 	{
-		System.out.println("공격,.,");
+		// TODO Auto-generated method stub
 	}
+	
+	
+	public void 퉤퉤()
+	{
+		
+	}
+	
 }
