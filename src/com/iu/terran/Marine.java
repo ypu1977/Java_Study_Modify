@@ -2,7 +2,7 @@ package com.iu.terran;
 
 import com.iu.unit.Unit;
 
-public abstract class Marine extends Unit
+public class Marine extends Unit
 {
 	
 	private String weapon;
